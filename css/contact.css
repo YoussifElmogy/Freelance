@@ -1,0 +1,36 @@
+header .hero h1{
+    color: white;
+}
+/* start online */
+.online{
+    background-color: #20232C;
+}
+.online h1{
+    color: white;
+    font-size: 48px;
+}
+/* end online */
+/* start info */
+.info h1::before{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 1px;
+    background-color: #ccc;
+}
+ h1{
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+.info .subtitle{
+    margin: 67px 0;
+    letter-spacing: 4px;
+
+}
+/* start quotes */
+.sec-title .sec-color{
+    color: #fa225b;
+    font-size: inherit;
+}
